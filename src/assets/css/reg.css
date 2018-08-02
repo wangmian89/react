@@ -1,0 +1,35 @@
+
+.reg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+}
+
+.regHead {
+    text-align: center;
+    margin-top: 30%;
+}
+.regHead > img {
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+.regHead > p {
+    width: 90%;
+    margin: auto auto;
+    text-align: left;
+    line-height: 2em;
+}
+
+.regHead > div {
+    width: 90%;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    background: #f50d01;
+    color: #FFFFFF;
+    margin: auto auto;
+    border-radius: 6px;
+    margin-top: 1em;
+}

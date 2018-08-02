@@ -1,0 +1,36 @@
+
+.listDiv {
+    background: #ffffff;
+    padding: 0em 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #f2f2f2;
+}
+.listDiv > a {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0em;
+}
+.listDiv > a > div:nth-child(1) {
+    width: 40%;
+    overflow: hidden;
+}
+.listDiv > a > div:nth-child(1) > img {
+    width: 100%;
+    height: auto;
+}
+.listDiv > a > div:nth-child(2) {
+    width: 58%;
+    overflow: hidden;
+}
+.listDiv > a > div:nth-child(2) > p:nth-child(1) {
+    font-weight: bold;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 2em;
+}
+.listDiv > a > div:nth-child(2) > p:nth-child(2) {
+    line-height: 2em;
+    text-indent: 1.5em;
+}

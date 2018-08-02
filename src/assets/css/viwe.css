@@ -1,0 +1,51 @@
+
+.viweHead, .viwePay, .vierInfo, .viweMoney {
+    background: #ffffff;
+    padding: 1em 1em;
+    border-bottom: 1px solid #f2f2f2;
+    margin-top: 0.5em;
+}
+
+.viweHead > p, .viwePay > p, .vierInfo > p, .viweMoney > p {
+    line-height: 2em;
+}
+
+.viweMoney {
+    text-align: right;
+}
+
+.viweMoney > p > span {
+    color: #FF0000;
+}
+
+.viweProduct {
+    background: #FFFFFF;
+}
+
+.viweProduct > div {
+    padding: 1em;
+}
+
+.viweProduct > div > a {
+    display: flex;
+}
+
+.viweProduct > div > a > div:nth-child(1) {
+    width: 80px;
+    overflow: hidden;
+}
+
+.viweProduct > div > a > div:nth-child(1) > img {
+    width: 100%;
+    height: auto;
+}
+
+.viweProduct > div > a > div:nth-child(2) {
+    width: 80%;
+    overflow: hidden;
+    margin-left: 1em;
+}
+
+.viweProduct > div > a > div:nth-child(2) > p:nth-child(2) {
+    margin-top: 1em;
+}

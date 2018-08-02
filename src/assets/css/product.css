@@ -1,0 +1,309 @@
+
+.goodsHeader {
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    height: auto;
+    background-color: #fff;
+}
+
+.goodsHeader > h2 {
+    padding: 0 10px;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+.goodsHeader > div {
+    padding: 5px 10px;
+}
+
+.goodsHeader > div > span {
+    color: #FF0000;
+    line-height: 1.5em;
+}
+
+.goodsHeader > div > span > i {
+    font-style: normal;
+}
+
+.goodsInfo {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.5em;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    background-color: #fff;
+}
+
+.goodsInfo > div:nth-child(1) {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.goodsInfo > div:nth-child(1) > div:nth-child(1) {
+    position: absolute;
+    left: 10px;
+    top: 11px;
+    height: 18px;
+    width: 18px;
+    background: url("../img/gy.png") no-repeat;
+    background-size: 18px 18px;
+}
+
+.goodsInfo > div:nth-child(1) > div:nth-child(2) {
+    float: left;
+    padding: 0 0 0 35px;
+    line-height: 3em;
+    font-size: 14px;
+    color: #333;
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.goodsInfo > div:nth-child(1) > div:nth-child(2) > img {
+    width: 31px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.goodsInfo > div:nth-child(2) {
+    padding: 0em 1em;
+    position: relative;
+}
+
+.goodsInfo > div:nth-child(2):after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #f2f2f2;
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+.goodsInfo > div:nth-child(2) > span {
+    background: url("../img/g1.png") no-repeat left center;
+    background-size: 18%;
+    line-height: 3em;
+    padding-left: 1.8em;
+}
+
+.goodsInfo > div:nth-child(2) > span:nth-child(2) {
+    margin-left: 1em;
+}
+
+.goodsContent {
+    padding: 0.5em 0em 4em 0em;
+}
+
+.goodsContent img {
+    width: 100%;
+    height: auto;
+}
+
+.goodsBottom {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 800;
+    bottom: 0px;
+    left: 0px;
+    border-top: 1px solid #ccc;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+    display: flex;
+    background: #fff;
+}
+
+.goodsBottom > div:nth-child(1) {
+    width: 16%;
+    overflow: hidden;
+    position: relative;
+}
+
+.goodsBottom > div:nth-child(1) > a > i {
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    margin-left: -10px;
+    color: #666;
+    background: url("../img/ico_cart.jpg");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+
+.goodsBottom > div:nth-child(1) > a > span {
+    position: absolute;
+    line-height: normal;
+    left: 22%;
+    bottom: 5px;
+    width: 100%;
+    color: #666;
+}
+
+.goodsBottom > div:nth-child(2), .goodsBottom > div:nth-child(3) {
+    width: 42%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.goodsBottom > div:nth-child(2) {
+    background: #F85;
+}
+
+.goodsBottom > div:nth-child(3) {
+    background: #F44;
+}
+
+.basket-title {
+    display: flex;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 10px;
+}
+
+.basket-title > div:nth-child(1) {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    border-radius: 2px;
+}
+
+.basket-title > div:nth-child(1) > img {
+    width: 100%;
+    height: auto;
+}
+
+.basket-title > div:nth-child(2) {
+    width: 80%;
+    margin-left: 10px;
+    text-align: left;
+    color: #333333;
+}
+
+.basket-title > div:nth-child(2) > p {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.basket-title > div:nth-child(2) > p:nth-child(2) {
+    color: #FF0000;
+}
+
+.basket-num {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.basket-num > span:nth-child(1) {
+    line-height: 2em;
+}
+
+.basket-num > span:nth-child(2) {
+    display: block;
+    width: 110px;
+    display: flex;
+}
+
+.basket-num > span:nth-child(2) > button {
+    border: 1px solid #eee;
+    font-size: 16px;
+    line-height: 10px;
+    font-weight: 700;
+    color: #666;
+    padding: 5px;
+    width: 37px;
+    height: 29px;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+}
+
+.basket-num > span:nth-child(2) > .minus {
+    background-color: #fff;
+    border: 1px solid #999;
+    border-width: 1px 0px 1px 1px;
+    border-radius: 2px 0 0 2px;
+    position: relative;
+}
+
+.basket-num > span:nth-child(2) > .minus:before {
+    position: absolute;
+    width: 8px;
+    height: 2px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #6c6c6c;
+    bottom: 0;
+    content: '';
+}
+
+.basket-num > span:nth-child(2) > .plus {
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 0 2px 2px 0;
+    position: relative;
+}
+
+.basket-num > span:nth-child(2) > .plus:before {
+    position: absolute;
+    width: 8px;
+    height: 2px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #6c6c6c;
+    bottom: 0;
+    content: '';
+}
+
+.basket-num > span:nth-child(2) > .plus:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    content: '';
+    width: 2px;
+    height: 8px;
+    background-color: #6c6c6c;
+}
+
+.basket-num > span:nth-child(2) > .txt {
+    width: 33px;
+    height: 25px;
+    padding: 1px;
+    border: 1px solid #999;
+    border-width: 1px 0px 1px 1px;
+    box-sizing: content-box;
+    color: #666;
+    font-size: 14px;
+    border-radius: 0;
+    text-align: center;
+}
+
+.basket-buy {
+    height: 3em;
+    overflow: hidden;
+    background: #ed414a;
+    color: #fff;
+    text-align: center;
+    line-height: 3em;
+}

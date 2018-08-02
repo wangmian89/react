@@ -1,0 +1,99 @@
+
+.homeTool {
+    background: url("../img/header.jpg") no-repeat center top;
+    text-align: center;
+}
+.homeTool > img {
+    width: 60%;
+    height: auto;
+    padding: 1em 0em;
+}
+
+.homeProductTitle {
+    text-align: center;
+    background: url("../img/product.jpg") no-repeat center top;
+}
+.homeProductTitle > p {
+    line-height: 2em;
+}
+.homeProductTitle > p:nth-child(1) {
+    padding-top: 1em;
+}
+.homeProductTitle > p:nth-child(2) {
+    padding-bottom: 1em;
+}
+
+.homeProductList {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.homeProductList > div {
+    width: 30%;
+    overflow: hidden;
+    padding: 1em 0em;
+    text-align: center;
+}
+.homeProductList > div > a > img {
+    width: 100%;
+    height: auto;
+}
+.homeProductList > div > a > p {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.homeAboutTitle {
+    background: #ffffff;
+    text-align: center;
+    padding: 1em 0em;
+    font-size: 1.2em;
+}
+.homeAboutInfo {
+    background: #ffffff;
+    padding: 0em 1em;
+}
+.homeAboutInfo > a > img {
+    width: 100%;
+    height: auto;
+}
+.homeAboutInfo > a > p {
+    line-height: 1.5em;
+}
+
+.homeAboutMenu {
+    display: flex;
+    justify-content: space-around;
+    background: #ffffff;
+    padding-top: 1em;
+}
+
+.homeAboutMenu > div {
+    width: 23%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.homeAboutMenu > div > a > img {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.homeNewsTitle {
+    text-align: center;
+    background: #ffffff;
+    padding: 3em 0em 1em 0em;
+    font-size: 1.2em;
+}
+.homeNewsList {
+    background: #ffffff;
+    padding: 0em 1em 4em 1em;
+}
+.homeNewsList > div {
+    border-bottom: 1px dashed #333333;
+    line-height: 3em;
+}

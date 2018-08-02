@@ -1,0 +1,26 @@
+
+.footer {
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    z-index: 800;
+    bottom: 0px;
+    left: 0px;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-around;
+}
+.footer>a {
+    display: block;
+    width: 20%;
+    overflow: hidden;
+    padding-top:0.15em;
+    text-align: center;
+}
+.footer>a>img {
+    width: 30%;
+    height: auto;
+}

@@ -1,0 +1,42 @@
+.productlist {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background: #ffffff;
+    left: 0;
+    top: 0;
+}
+
+.productlist-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #ffffff;
+    padding-bottom: 4em;
+}
+
+.productlist-list > div {
+    width: 42%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 4%;
+}
+
+.productlist-list > div > a > img {
+    width: 100%;
+    height: auto;
+}
+
+.productlist-list > div > a > p {
+    text-align: left;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.productlist-list > div > a > p:nth-child(3) {
+    color: #FF0000;
+    line-height: 2em;
+}

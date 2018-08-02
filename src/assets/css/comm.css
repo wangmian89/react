@@ -1,0 +1,71 @@
+body, h1, h2, h3, h4, h5, h6, hr, menu, p, blockquote, ol, ul, dl, dd, td, th, figure, pre, button, input, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+div, form {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 500;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+li {
+    list-style-type: none;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    color: #333;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #333;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #F00;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+input[type=submit], input[type=button], input[type=text], input[type=password] {
+    -webkit-appearance: none;
+    box-sizing: content-box; /*border:0;border-radius:0;*/
+    box-shadow: none;
+    outline: none;
+    font-family: Microsoft YaHei;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+}

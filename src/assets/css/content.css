@@ -1,0 +1,28 @@
+
+.conent {
+    width: 100%;
+    overflow: hidden;
+    background: #ffffff;
+    padding-bottom: 4em;
+}
+
+.conentTitle {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 3em;
+}
+.conentTime {
+    text-align: center;
+    line-height: 2em;
+    margin-bottom: 1em;
+}
+
+.conentInfo {
+    padding: 0em 1em 2em 1em;
+    line-height: 2em;
+}
+
+.conentInfo img {
+    width: 100%;
+    height: auto;
+}

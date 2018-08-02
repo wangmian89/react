@@ -1,0 +1,181 @@
+
+.cartTit {
+    display: block;
+    line-height: 50px;
+    height: 50px;
+    background-image: url("../img/gy.png");
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    margin-left: -10px;
+    padding-left: 50px;
+    background-position: 25px center;
+    border-bottom: 1px solid #f2f2f2;
+    background: #FFFFFF;
+}
+
+.cartList {
+    padding: 1em 1em;
+    display: flex;
+    background: #FFFFFF;
+}
+
+.cartList > div:nth-child(1) {
+    width: 100px;
+}
+
+.cartList > div:nth-child(1) > img {
+    width: 100px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.cartList > div:nth-child(2) {
+    width: 80%;
+    overflow: hidden;
+    margin-left: 0.5em;
+}
+
+.cartList > div:nth-child(2) > p {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.cartList > div:nth-child(2) > p:nth-child(1) {
+    clear: both;
+    width: 100%;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.cartList > div:nth-child(2) > p:nth-child(2) {
+    color: #C30;
+    line-height: 3em;
+}
+
+.cartList > div:nth-child(2) > p:nth-child(3) {
+    display: flex;
+    line-height: 2em;
+}
+
+.cartList > div:nth-child(2) > p:nth-child(3) > span > img {
+    padding: 0.3em 0em 0em 0.5em;
+}
+
+.buyCarNum {
+    display: block;
+    width: 110px;
+    display: flex;
+}
+
+.buyCarNum > button {
+    border: 1px solid #eee;
+    font-size: 16px;
+    line-height: 10px;
+    font-weight: 700;
+    color: #666;
+    padding: 5px;
+    width: 37px;
+    height: 29px;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+}
+
+.buyCarNum > .minus {
+    background-color: #fff;
+    border: 1px solid #999;
+    border-width: 1px 0px 1px 1px;
+    border-radius: 2px 0 0 2px;
+    position: relative;
+}
+
+.buyCarNum > .minus:before {
+    position: absolute;
+    width: 8px;
+    height: 2px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #6c6c6c;
+    bottom: 0;
+    content: '';
+}
+
+.buyCarNum > .plus {
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 0 2px 2px 0;
+    position: relative;
+}
+
+.buyCarNum > .plus:before {
+    position: absolute;
+    width: 8px;
+    height: 2px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #6c6c6c;
+    bottom: 0;
+    content: '';
+}
+
+.buyCarNum > .plus:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    content: '';
+    width: 2px;
+    height: 8px;
+    background-color: #6c6c6c;
+}
+
+.buyCarNum > .txt {
+    width: 33px;
+    height: 25px;
+    padding: 1px;
+    border: 1px solid #999;
+    border-width: 1px 0px 1px 1px;
+    box-sizing: content-box;
+    color: #666;
+    font-size: 14px;
+    border-radius: 0;
+    text-align: center;
+}
+
+.carMoney {
+    padding: 1em;
+    text-align: right;
+    font-size: 1.1em;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    color: #FF0000;
+    background: #FFFFFF;
+}
+
+.carBottom {
+    width: 100%;
+    height: 3em;
+    overflow: hidden;
+    background: #FF0000;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 3em;
+    font-size: 1.2em;
+    position: fixed;
+    bottom: 0;
+}
+
+.carBottom > a {
+    color: #FFFFFF;
+}

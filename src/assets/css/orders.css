@@ -1,0 +1,33 @@
+
+.red {
+    color: #FF0000;
+}
+
+.green {
+    color: #06bf04;
+}
+
+.center {
+    padding-bottom: 4em;
+}
+
+.orderList {
+    background: #FFFFFF;
+    border: 1px solid #f2f2f2;
+    margin: 1em;
+}
+
+.orderList > a > p {
+    display: flex;
+    justify-content: space-between;
+     padding: 0.5em 1em;
+}
+
+.orderList > a > p:nth-child(1) {
+    border-bottom: 1px solid #f2f2f2;
+    padding: 1em;
+}
+
+.orderList > a > p:nth-child(2) {
+
+}

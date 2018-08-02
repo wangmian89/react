@@ -1,0 +1,297 @@
+
+.confirmAddress {
+    min-height: 80px;
+    overflow: hidden;
+    background: #FFF url("../img/ad.jpg") repeat-x bottom;
+    margin-bottom: 1em;
+}
+
+.confirmAddress > div:nth-child(1) {
+    overflow: hidden;
+    margin: 1.5em 1em 1em 1em;
+    line-height: 40px;
+    background-image: url("../img/sj.png");
+    background-repeat: no-repeat;
+    background-size: 2%;
+    background-position: right center;
+}
+
+.confirmAddress > div:nth-child(1) > span {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    float: left;
+    background: #3283fa;
+    position: relative;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.confirmAddress > div:nth-child(1) > span:before {
+    position: absolute;
+    width: 16px;
+    height: 2px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    bottom: 0;
+    content: '';
+}
+
+.confirmAddress > div:nth-child(1) > span:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    content: '';
+    width: 2px;
+    height: 16px;
+    background-color: #fff;
+}
+
+.confirmAddress > div.confirmAddressList {
+    background: url("../img/ads.jpg") no-repeat;
+    background-size: 5%;
+}
+
+.confirmAddress > div > ul {
+    width: 85%;
+    overflow: hidden;
+    margin: auto auto;
+    line-height: 24px;
+}
+
+.confirmAddress > div > ul > li:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popupTitle {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    line-height: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.popupList {
+    padding-left: 10px;
+}
+
+.popupList > div {
+    padding: 10px 30px;
+    font-size: 12px;
+    position: relative;
+    text-align: left;
+}
+
+.popupList > div > span {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -12px;
+    width: 22px;
+    height: 22px;
+}
+
+.popupList > div > span.icon_ko {
+    background-image: url("../img/select.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22px 22px;
+}
+
+.popupList > div > span.icon_check {
+    background-image: url("../img/selected.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22px 22px;
+}
+
+.popupList > div > p {
+    font-size: 0.9em;
+}
+
+.popupList > div > p:nth-child(2) {
+    color: #333333;
+}
+
+.popupForm {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.popupForm > label {
+    width: 90px;
+    line-height: 28px;
+    padding: 10px 0;
+}
+
+.popupForm > input {
+    padding: 10px 0;
+    min-height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 0px none;
+    outline: none;
+}
+
+.popupBottom {
+    width: 96%;
+    height: 40px;
+    overflow: hidden;
+    background: #06bf04;
+    color: #FFFFFF;
+    line-height: 40px;
+    margin: 1em auto;
+    border-radius: 6px;
+}
+
+.addAddress {
+    position: relative;
+    padding: 15px;
+    padding-left: 30px;
+    margin: 0;
+    margin-left: 10px;
+    line-height: 20px;
+    font-size: 14px;
+    border-top: 1px solid #f2f2f2;
+    text-align: left;
+}
+
+.addAddress > .iconAdd {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-image: url("../img/add_address.png");
+    background-repeat: no-repeat;
+    background-size: 22px 22px;
+    background-position: center;
+    position: absolute;
+    left: 0px;
+    top: 13px;
+}
+
+.confirmList {
+    background: #FFFFFF;
+}
+
+.confirmListTit {
+    line-height: 50px;
+    height: 50px;
+    background-image: url("../img/gy.png");
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    margin-left: -10px;
+    padding-left: 50px;
+    background-position: 25px center;
+}
+
+.confirmListPr {
+    /*width: 100%;*/
+    overflow: hidden;
+    margin: 1em;
+    background-color: #fff;
+    zoom: 1;
+    display: flex;
+}
+
+.confirmListPr > img {
+    width: 90px;
+    height: 90px;
+    border-radius: 6px;
+}
+
+.confirmListPr > div {
+    width: auto;
+    max-width: 75%;
+    min-height: 38px;
+    margin-left: 10px;
+}
+
+.confirmListPr > div > p {
+    line-height: 2em;
+}
+
+.confirmListPrice {
+    background: #FFF;
+    padding: 0em 1em 0em 1em;
+    line-height: 3em;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.confirmListPrice > span {
+    color: #FF0000;
+}
+
+.confirmPay {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 10;
+    bottom: 0px;
+    left: 0px;
+    border-top: 1px solid #f2f2f2;
+    overflow: hidden;
+    background: #FFF;
+}
+
+.confirmPay > div:nth-child(1) {
+    width: 110px;
+    height: 50px;
+    color: #fff;
+    background-color: #f44;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 50px;
+    float: right;
+}
+
+.confirmPay > div:nth-child(2) {
+    float: right;
+    font-size: 1.2em;
+    line-height: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.confirmPay > div:nth-child(2) > span {
+    color: #FF0000;
+}
+
+.confirmTotal {
+    background: #FFF;
+    border-bottom: 1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+    overflow: hidden;
+    margin: 1em 0em;
+    position: relative;
+    padding: 1em;
+    margin-bottom: 4em;
+}
+
+.confirmTotal > p {
+    line-height: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.confirmTotal > p > span:nth-child(2) {
+    color: #FF0000;
+}
